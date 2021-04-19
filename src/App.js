@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import PriceList from './components/PriceList';
+import {LIST_VIEW, CHART_VIEW} from './utility';
+import ViewTab from './components/ViewTab';
 
 const items = [
   {
@@ -36,10 +38,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <PriceList 
-          items = {items}
-          onModifyItem={(item) => {alert(item.id)}}
-          onDeleteItem={(item) => {alert(item.id)}}
+        <ViewTab 
+          activeTab={LIST_VIEW}
+          onTabChange={(view) => console.log(view)}
         />
       </div>
     );
