@@ -5,7 +5,7 @@ import './App.css';
 import PriceList from './components/PriceList';
 import {LIST_VIEW, CHART_VIEW} from './utility';
 import ViewTab from './components/ViewTab';
-
+import MonthPicker from './components/MonthPicker'
 const items = [
   {
     id: 1,
@@ -38,9 +38,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <ViewTab 
-          activeTab={LIST_VIEW}
-          onTabChange={(view) => console.log(view)}
+        <MonthPicker 
+          year={2018}
+          month={5}
+          onChange={(year, month) => console.log(year, month)}
         />
       </div>
     );
