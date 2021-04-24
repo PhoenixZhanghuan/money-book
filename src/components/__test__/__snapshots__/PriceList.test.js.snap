@@ -1,0 +1,251 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test PriceList component should reander the component to match snapshot 1`] = `
+<ul
+  className="list-groud list-group-flush"
+>
+  <li
+    className="list-group-item d-flex justify-content-between align-items-center"
+    key="1"
+  >
+    <span
+      className="col-1 badge badge-primary"
+    >
+      <Ionicon
+        beat={false}
+        className="rounded-circle"
+        color="#fff"
+        fontSize="30px"
+        icon="ios-plane"
+        rotate={false}
+        shake={false}
+        style={
+          Object {
+            "backgroundColor": "#007bff",
+            "padding": "5px",
+          }
+        }
+      />
+    </span>
+    <span
+      className="col-5"
+    >
+      去云南旅行
+    </span>
+    <span
+      className="col-2 font-weight-bold"
+    >
+      -
+      200
+      元
+    </span>
+    <span
+      className="col-2"
+    >
+      2021-04-10
+    </span>
+    <a
+      className="col-1"
+      onClick={[Function]}
+    >
+      <Ionicon
+        beat={false}
+        className="rounded-circle"
+        color="#fff"
+        fontSize="30px"
+        icon="ios-create-outline"
+        rotate={false}
+        shake={false}
+        style={
+          Object {
+            "backgroundColor": "#28a745",
+            "padding": "5px",
+          }
+        }
+      />
+    </a>
+    <a
+      className="col-1"
+      onClick={[Function]}
+    >
+      <Ionicon
+        beat={false}
+        className="rounded-circle"
+        color="#fff"
+        fontSize="30px"
+        icon="ios-close"
+        rotate={false}
+        shake={false}
+        style={
+          Object {
+            "backgroundColor": "#dc3545",
+            "padding": "5px",
+          }
+        }
+      />
+    </a>
+  </li>
+  <li
+    className="list-group-item d-flex justify-content-between align-items-center"
+    key="2"
+  >
+    <span
+      className="col-1 badge badge-primary"
+    >
+      <Ionicon
+        beat={false}
+        className="rounded-circle"
+        color="#fff"
+        fontSize="30px"
+        icon="ios-plane"
+        rotate={false}
+        shake={false}
+        style={
+          Object {
+            "backgroundColor": "#007bff",
+            "padding": "5px",
+          }
+        }
+      />
+    </span>
+    <span
+      className="col-5"
+    >
+      去云南旅行
+    </span>
+    <span
+      className="col-2 font-weight-bold"
+    >
+      -
+      400
+      元
+    </span>
+    <span
+      className="col-2"
+    >
+      2021-03-10
+    </span>
+    <a
+      className="col-1"
+      onClick={[Function]}
+    >
+      <Ionicon
+        beat={false}
+        className="rounded-circle"
+        color="#fff"
+        fontSize="30px"
+        icon="ios-create-outline"
+        rotate={false}
+        shake={false}
+        style={
+          Object {
+            "backgroundColor": "#28a745",
+            "padding": "5px",
+          }
+        }
+      />
+    </a>
+    <a
+      className="col-1"
+      onClick={[Function]}
+    >
+      <Ionicon
+        beat={false}
+        className="rounded-circle"
+        color="#fff"
+        fontSize="30px"
+        icon="ios-close"
+        rotate={false}
+        shake={false}
+        style={
+          Object {
+            "backgroundColor": "#dc3545",
+            "padding": "5px",
+          }
+        }
+      />
+    </a>
+  </li>
+  <li
+    className="list-group-item d-flex justify-content-between align-items-center"
+    key="3"
+  >
+    <span
+      className="col-1 badge badge-primary"
+    >
+      <Ionicon
+        beat={false}
+        className="rounded-circle"
+        color="#fff"
+        fontSize="30px"
+        icon="logo-yen"
+        rotate={false}
+        shake={false}
+        style={
+          Object {
+            "backgroundColor": "#007bff",
+            "padding": "5px",
+          }
+        }
+      />
+    </span>
+    <span
+      className="col-5"
+    >
+      理财收入
+    </span>
+    <span
+      className="col-2 font-weight-bold"
+    >
+      +
+      200
+      元
+    </span>
+    <span
+      className="col-2"
+    >
+      2021-02-10
+    </span>
+    <a
+      className="col-1"
+      onClick={[Function]}
+    >
+      <Ionicon
+        beat={false}
+        className="rounded-circle"
+        color="#fff"
+        fontSize="30px"
+        icon="ios-create-outline"
+        rotate={false}
+        shake={false}
+        style={
+          Object {
+            "backgroundColor": "#28a745",
+            "padding": "5px",
+          }
+        }
+      />
+    </a>
+    <a
+      className="col-1"
+      onClick={[Function]}
+    >
+      <Ionicon
+        beat={false}
+        className="rounded-circle"
+        color="#fff"
+        fontSize="30px"
+        icon="ios-close"
+        rotate={false}
+        shake={false}
+        style={
+          Object {
+            "backgroundColor": "#dc3545",
+            "padding": "5px",
+          }
+        }
+      />
+    </a>
+  </li>
+</ul>
+`;

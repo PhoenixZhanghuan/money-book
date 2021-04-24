@@ -16,7 +16,7 @@ import MonthPicker from "../components/MonthPicker";
 import TotalPrice from "../components/TotalPrice";
 import CreateBtn from "../components/CreateBtn";
 
-const categoies = {
+export const categories = {
     1: {
         id: "1",
         name: "旅行",
@@ -31,7 +31,7 @@ const categoies = {
     },
 };
 
-const items = [
+export const items = [
     {
         id: 1,
         title: "去云南旅行",
@@ -119,7 +119,7 @@ class Home extends Component {
     render() {
         const { items, currentDate, tabView } = this.state;
         const itemsWidthCategory = items.map((item) => {
-            item.category = categoies[item.cid];
+            item.category = categories[item.cid];
             return item;
         }).filter(item => {
             return item.date.includes(`${currentDate.year}-${padLeft(currentDate.month)}`)
