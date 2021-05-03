@@ -36,30 +36,30 @@ export const items = [
         id: 1,
         title: "去云南旅行",
         price: 200,
-        date: "2021-04-10",
+        date: "2018-09-10",
         cid: 1,
     },
     {
         id: 2,
         title: "去云南旅行",
         price: 400,
-        date: "2021-03-10",
+        date: "2018-09-10",
         cid: 1,
     },
     {
         id: 3,
         title: "理财收入",
         price: 200,
-        date: "2021-02-10",
+        date: "2018-10-10",
         cid: 2,
     },
 ];
 
-const newItem = {
+export const newItem = {
     id: 4,
     title: "新添加的项目",
     price: 300,
-    date: "2021-04-20",
+    date: "2018-10-20",
     cid: 1,
 };
 
@@ -68,7 +68,7 @@ class Home extends Component {
         super(props);
         this.state = {
             items,
-            currentDate: parseToYearAndMonth(),
+            currentDate: parseToYearAndMonth('2018/10/01'),
             tabView: LIST_VIEW,
         };
     }
